@@ -6,9 +6,10 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/home';
 import Cart from './pages/cart/cart';
 import Placeorder from './pages/placeorder/placeorder';
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
-    <div className='app'>
+    <> <div className='app'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -20,6 +21,9 @@ const App = () => {
 
       
     </div>
+    <Footer/>
+    </>
+   
   )
 }
 
