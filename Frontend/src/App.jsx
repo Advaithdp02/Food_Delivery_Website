@@ -7,6 +7,7 @@ import Home from './pages/home/home';
 import Cart from './pages/cart/cart';
 import Placeorder from './pages/placeorder/placeorder';
 import Footer from './components/Footer/Footer';
+
 const App = () => {
   return (
     <> <div className='app'>
